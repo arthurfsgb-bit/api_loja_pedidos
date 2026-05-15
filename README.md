@@ -1,112 +1,136 @@
-# \# =========================
+# 🛒 Sistema de Clientes e Vendas
 
-# \# Visual Studio / .NET
+Projeto desenvolvido com foco em gerenciamento de clientes e registro de vendas utilizando ASP.NET, SQL Server e Frontend Web.
 
-# \# =========================
+---
 
-# bin/
+## 🚀 Tecnologias Utilizadas
 
-# obj/
+### Backend
 
-# .vs/
+* C#
+* ASP.NET Web API
+* Entity Framework
+* SQL Server
 
-# \*.user
+### Frontend
 
-# \*.suo
+* HTML5
+* CSS3
+* JavaScript
 
-# \*.userosscache
+---
 
-# \*.sln.docstates
+## 📂 Estrutura do Projeto
 
-# 
+```bash
+Projeto-Loja/
+│
+├── ApiDBLojaJV/
+│   ├── Controllers/
+│   ├── Models/
+│   ├── Data/
+│   └── Program.cs
+│
+├── FrontendLoja/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+│
+└── README.md
+```
 
-# \# Rider / VS Code
+---
 
-# .idea/
+## ⚙️ Funcionalidades
 
-# .vscode/
+✅ Cadastro de clientes
+✅ Atualização de clientes
+✅ Exclusão de clientes
+✅ Registro de vendas
+✅ Integração com banco SQL Server
+✅ API REST em ASP.NET
 
-# 
+---
 
-# \# =========================
+## 🖥️ Interface
 
-# \# Logs
+### Tela de Clientes
 
-# \# =========================
+* Listagem de clientes
+* Cadastro rápido
+* Atualização e exclusão
 
-# \*.log
+### Tela de Vendas
 
-# 
+* Registro de vendas
+* Integração com clientes cadastrados
 
-# \# =========================
+---
 
-# \# Arquivos temporários
+## 🗄️ Banco de Dados
 
-# \# =========================
+Banco utilizado:
 
-# \*.tmp
+* SQL Server
 
-# \*.temp
+Exemplo de criação:
 
-# 
+```sql
+CREATE DATABASE LojaDB;
+```
 
-# \# =========================
+---
 
-# \# Pacotes NuGet
+## ▶️ Como Executar o Projeto
 
-# \# =========================
+### 1️⃣ Clonar o repositório
 
-# packages/
+```bash
+git clone URL_DO_REPOSITORIO
+```
 
-# \*.nupkg
+---
 
-# 
+### 2️⃣ Backend
 
-# \# =========================
+Entrar na pasta da API:
 
-# \# Configurações sensíveis
+```bash
+cd ApiDBLojaJV
+```
 
-# \# =========================
+Executar:
 
-# appsettings.Development.json
+```bash
+dotnet run
+```
 
-# secrets.json
+---
 
-# 
+### 3️⃣ Frontend
 
-# \# =========================
+Abrir o arquivo:
 
-# \# SQL Server
+```bash
+index.html
+```
 
-# \# =========================
+ou utilizar a extensão Live Server no VS Code.
 
-# \*.mdf
+---
 
-# \*.ldf
+## 📌 Melhorias Futuras
 
-# 
+* Autenticação de usuários
+* Dashboard administrativo
+* Relatórios de vendas
+* Deploy em nuvem
+* Responsividade mobile
+* Integração com JWT
 
-# \# =========================
+---
 
-# \# Frontend
+## 👨‍💻 Autor
 
-# \# =========================
-
-# node\_modules/
-
-# dist/
-
-# build/
-
-# 
-
-# \# =========================
-
-# \# Sistema Operacional
-
-# \# =========================
-
-# .DS\_Store
-
-# Thumbs.db
-
+Desenvolvido por Arthur Francisco Santos Gomes Barreto⚔️
